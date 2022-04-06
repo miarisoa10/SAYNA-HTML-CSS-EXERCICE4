@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/************************* header ******************/
+
+header {
+    background-color: #B11313;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+figure {
+    margin: 3%;
+}
+
+
+/****** section********/
+
+@font-face {
+    font-family: 'Far From Homecoming';
+    src: url(./Far-From\ Homecoming\ Updated.otf)
+}
+
+section {
+    background-color: #F1C530;
+}
+
+.titre {
+    color: white;
+    font-size: 500%;
+    font-family: 'Far From Homecoming', sans-serif;
+}
+/****section2***/
+.section2{
+    background-color: #B11313;
+}
+h1 {
+    color: white;
+    font-size: 32px;
+    margin-left: 10%;
+    font-family: 'Far From Homecoming', sans-serif;
+}
+p {
+    
+    color: white;
+    margin-left: 10%;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.input1 {
+    height: 2em;
+    width: 25em;
+    border-radius: 20px;
+    border: 1px 1px 1px white !important;
+    background-color: #B11313;
+}
+.input1::placeholder {
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.input-text {
+    width: 25em;
+    height: 10em;
+    border-radius: 20px;
+    background-color: #B11313;
+    border: 1px solid white !important;
+}
+#button1 {
+    width: 12em;
+    height: 3em;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #B11313;
+    border: 1px solid white !important;
+    font-family: 'Montserrat', sans-serif;
+}
+/********section3*********/
+.section3 {
+    background-color: #114C92;
+    padding-bottom: 5%;
+
+}
+
+
+.list-text {
+    color: white;
+    font-size: 12px;
+    margin-left: 7%;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.button2 {
+    width: 12em;
+    height: 3em;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #114C92;
+    border: 1px solid white !important;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+/****************page bonus********************/
+.bonus{
+    background-image: url(./Illustration/img35.png);
+    background-size: cover;
+    width:100%;
+    
+}
+/*************page home****************/
+section.home{ 
+    background-color:rgb(177, 19,19);
+    background-image: url(./Illustration/img1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hom{
+    background-color:rgb(177, 19,19);
+}
+.button3 {
+    width: 12em;
+    height: 3em;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color:white;
+    border: 1px solid white !important;
+    font-family: 'Montserrat', sans-serif;
+    color:#bb0a0a;
+}
+.button6 {
+    width: 15em;
+    height: 3em;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color:white;
+    border: 1px solid white !important;
+    font-family: 'Montserrat', sans-serif;
+    color:#bb0a0a;
+}
+
+
+.button4 {
+    width: 12em;
+    height: 3em;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color:#bb0a0a;
+    border: 1px solid white !important;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+.home3{
+    background-color: #114C92; 
+    height: 200%;
+}
+.home4{
+    background-color:#bb0a0a;
+}
+.input2 {
+    height: 2em;
+    width: 25em;
+    border-radius: 20px;
+    border: 1px 1px 1px black !important;
+    background-color: white ;
+}
+.input2::placeholder {
+    color:black;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.input-text1 {
+    width: 25em;
+    height: 10em;
+    border-radius: 20px;
+    background-color: white ;
+    border: 1px solid black !important;
+}
+#button5 {
+    width: 12em;
+    height: 3em;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #114C92;
+    border: 1px solid white !important;
+    font-family: 'Montserrat', sans-serif;
+}
+/******************héros*******************/
+header.héros{
+    background-color:#114C92 ;
+}
+.partie1{
+    background-image: url(./Illustration/img19.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.partie2{
+    background-color:#114C92 ;
+    background-repeat: repeat;
+    margin-top: -3%;
+}
+.partie3{
+    background-image: url(./Illustration/img20.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.partie4{
+    background-color:#114C92 ;
+}
+.partie5{
+    background-color: #B11313;
+}
+.sous-titre{
+    font-size: 150%;
+    margin-left: 2%;
+    margin-top: 20%;
+}
+.partie6{
+    background-image: url(./Illustration/img33.png);
+}
+#conte{
+    background-color:#114C92 ;
+    margin-left: 40%;
+    opacity: 60%;
+
+}
+/***********************Adversaire*****************************/
+ header.Adversaire{
+    background-color: #F1C530;
+}
+.contenue1{
+    background-color:#F1C530;
+    background-image: url(./Illustration/img7.png);
+    background-size: cover;
+}
+
+.titre {
+    color: white;
+    font-size: 500%;
+    margin-top: 20%;
+    font-family: 'Far From Homecoming', sans-serif;
+}
+.contenue2{
+    background-color:#F1C530; 
+}
+h5{
+    text-align: center;
+}
+figcaption{
+    border: 10px solid black;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-top: none;
+    box-shadow: black;
+} figcaption p{
+    color: black;
+}
+
+
+
+
+
+
+/*************footer*******************************/
+
+footer {
+    background-color: black;
+}
+
+.footbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.list2 ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+select {
+    background-color: #B11313;
+    border-radius: 10%;
+    font-size: 80%;
+    border: 1px solid #B11313;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    height: 2em;
+    margin: 0 2%;
+    width: 250%;
+}
+
+.fin p {
+    margin: 3%;
+    padding: 3%;
+    color: white;
+    text-align: center;
+    font-size: 80%;
+    font-family: 'Montserrat', sans-serif;
+}
